@@ -4,7 +4,7 @@
   >
     <div>
       <img
-        src="@/assets/images/me.jpeg"
+        src="@/assets/images/mr.png"
         alt="Arufonsekun"
         class="rounded-full w-8/12 mx-auto"
       />
@@ -16,22 +16,15 @@
 
     <div class="mx-4">
       <p class="text-base">
-        Estudante de Ciência da Computação pela UFFS Chapecó e Dev Fullstack na
-        <a
-          href="https://www.optidata.cloud/"
-          class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-          target="_blank"
-        >
-          Optidata</a
-        >. Gosto de Daft Punk, The Office,
+        Estudante de Ciência da Computação pela UFFS Chapecó e Dev Fullstack.
+        Gosto de Daft Punk, The Office,
         <a
           href="https://www.op.gg/summoners/br/arufonsekun"
           target="_blank"
           rel="noopener noreferrer"
           class="font-medium text-blue-600 dark:text-blue-500 hover:underline"
           >LOL</a
-        >
-        e dos meus amigos da firma.
+        >.
       </p>
     </div>
 

@@ -3,6 +3,7 @@ import { createPinia } from "pinia";
 
 import App from "./App.vue";
 import router from "./router";
+import { Starfield } from "./libs/starfield";
 
 import "./assets/main.css";
 import {
@@ -26,6 +27,12 @@ app.use(createPinia());
 app.use(router);
 
 app.mount("#app");
+new Starfield(document.querySelector("canvas"), {
+  speed: 0.5,
+  density: 0.3,
+  starSize: 1.5,
+});
+
 window.bootstrap = {
   Alert,
   Button,
