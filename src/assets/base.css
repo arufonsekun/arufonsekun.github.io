@@ -71,7 +71,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,15 +82,19 @@ body {
   color: #2c3e50;
   background-color: #eee;
   position: absolute;
-  width: 30%;
   display: flex;
   background-color: #feae9600;
   border: 1px solid #74747459;
+  width: 30%;
 }
 
 @media (max-width: 768px) {
   #app {
-    height: 100%;
     width: 100%;
+  }
+
+  img {
+    width: 200px;
+    height: auto;
   }
 }
